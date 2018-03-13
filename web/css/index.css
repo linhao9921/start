@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{  margin: 0;  padding: 0;  font-family: '微软雅黑';}
+
+html,body{  margin: 0;  }
+
+.box{
+    width: 960px;
+    height:100%;
+    padding: 10px;
+    position: absolute;
+    top:20px;
+    bottom: 30px;
+    left:50%;
+    margin-left: -480px;
+    background-color: #f5f5f5;
+}
+
+.container{
+    position: relative;
+}
+
+.fixclaer{
+    clear: both;
+}
+
+.xz {
+    width: 134px;
+    height: 134px;
+    background: url("../images/xz_icon130.gif") no-repeat;
+}
+
+.xz.baiyang{
+    background-position: 0 0;
+}
+
+.xz.jinniu{
+    background-position: -125px 0;
+}
+
+.xz.shuangzi{
+    background-position: -255px 0;
+}
+
+.xz.juxie{
+    background-position: -390px 0;
+}
+
+.xz.shizi{
+    background-position: -520px 0;
+}
+
+.xz.chunv{
+    background-position: -645px 0;
+}
+
+.xz.tianping{
+    background-position: -780px 0;
+}
+
+.xz.tianxie{
+    background-position: -910px 0;
+}
+
+.xz.sheshou{
+    background-position: -1040px 0;
+}
+
+.xz.mojie{
+    background-position: -1170px 0;
+}
+
+.xz.shuiping{
+    background-position: -1300px 0;
+}
+
+.xz.shuangyu{
+    background-position: -1430px 0;
+}
